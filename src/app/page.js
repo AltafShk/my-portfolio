@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          {"This is Altaf Shaikh's portfolio"}&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
@@ -15,9 +15,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
-              src="/vercel.svg"
+              src="./vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
@@ -31,7 +31,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="./next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
@@ -91,5 +91,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
