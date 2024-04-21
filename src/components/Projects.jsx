@@ -37,18 +37,18 @@ const customProjects = [
   },
   {
     id: 5,
+    name: "MyReads App",
+    description: "Personal Project for tracking your favorite books - MyReads",
+    image: "./MyReads.png",
+    url: "https://github.com/AltafShk/MyReads-App",
+  },
+  {
+    id: 6,
     name: "FlashCards App",
     description:
       "Personal Project for a flashcards app for memorizing - FlashCards",
-    image: "./Storius.png",
+    image: "",
     url: "https://github.com/AltafShk/Flashcards-App",
-  },
-  {
-    id: 5,
-    name: "MyReads App",
-    description: "Personal Project for tracking your favorite books - MyReads",
-    image: "./Storius.png",
-    url: "https://github.com/AltafShk/MyReads-App",
   },
 ];
 
