@@ -18,8 +18,11 @@ const StyledAboutMe = styled.section`
   }
 `;
 
+const bio =
+  "I am a versatile professional currently pursuing my Masters in Computer Science at Saarland University. With a Bachelor's in Computer Science and a Minor in Mathematics from Habib University, I blend technical expertise with interpersonal skills seamlessly. As a Full Stack Software Engineer at CreditBook, I excelled in frontend, backend, and DevOps, employing technologies like React, MongoDB, and AWS. With a passion for community engagement, I have also served as President of ACM Habib Chapter. With a commitment to excellence and a diverse skill set, I am poised to make significant contributions in the tech industry.";
+
 export default function AboutMe() {
-  const { avatar_url, bio } = useSelector(selectData);
+  const { avatar_url } = useSelector(selectData);
 
   return (
     <Element name={"About"} id="about">
