@@ -4,7 +4,7 @@ import styled from "styled-components";
 // Components
 import { Container } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
-import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactForm";
 
 const StyledSection = styled.section`
   min-height: 89vh;
@@ -22,7 +22,7 @@ export default function Contact() {
           </Title>
         </Container>
         <Container>
-          <ContactForm />
+          <ContactInfo />
         </Container>
       </StyledSection>
     </Element>
