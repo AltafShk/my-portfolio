@@ -2,3 +2,25 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Build
+build/
+dist/
+
+# Dependency directories
+/.pnp/
+.pnp.js
+
+# Testing
+/coverage/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.kate-swp/
+*.swp
+*.swo
